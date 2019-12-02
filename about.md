@@ -4,6 +4,9 @@ title: About
 permalink: /about/
 ---
 
-I'm Programmer for Python & Django. I've made quite a few web apps, especially on Django. Now, I am doing more on backend.
+My name is Celine Yuwono. I am from Jakarta, Indonesia.
+I graduated from University of North Carolina at Chapel Hill majoring in BS Information Sciences.
+Currently, I am working as a web developer at Agile Media Network Co.Ltd,
+a company in Tokyo, Japan focusing on Ambassador Marketing.
 
-email: agus[at]python.web.id
+email: celineyuwono[at]gmail.com
