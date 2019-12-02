@@ -38,7 +38,7 @@ urls:
     - text: XML Feed
       url: /feed.xml
 
-url: "https://celineyuwonophotos.github.io"
+url: "https://celineyuwono.gitlab.io"
 baseurl: ""
 paginate: 20
 per_page: 20
