@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto Condensed", Arial, sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   background: url("/static/img/subtle_dots.png");
   line-height: 1.5em;
   font-weight: 300;
@@ -19,39 +19,48 @@ span.time, span.categories {
   font-size: 11px;
 }
 h1, h2, h3 {
+  font-family: "Courgette", cursive;
   color: #696969;
   font-weight: normal;
 }
 h1 {
   margin-bottom: 10px;
-  font-size: 25px;
+  font-size: 30px;
 }
 h2, h3 {
   margin-bottom: 5px;
+  font-size: 25px;
 }
 a, a:link, a:active {
   text-decoration: none;
-  color: #3fa757;
+  color: #36A9BF;
 }
 a:hover {
-  color: #B3B3B3;
-  text-decoration: underline;
+  color: #E35B55;
+  font-weight: bold;
 }
 
 /* Layout */
 .main-layout {
   background: #fff;
 }
+
+.main-footer {
+  font-size: 14px;
+}
+
 .sidebar-nav {
   margin: 0;
   padding: 0;
 }
+
 .sidebar-nav li {
   margin: 0;
   list-style: none;
+  font-size: 16px;
 }
 .sidebar-nav li::before {
-  content: "»";
+  content: "✗";
   margin-right: .5em;
 }
 
