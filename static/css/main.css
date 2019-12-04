@@ -104,6 +104,7 @@ div.col-sm-3 strong {
 div.col-sm-3 div.profile-about {
   margin-top: 10px;
   color: #8C8C8C;
+  font-size: 24px;
 }
 
 /* Pagination */
@@ -129,7 +130,7 @@ div.col-sm-3 div.profile-about {
 /* Social Icons */
 .social{
   display: block;
-  margin: 10px 0;
+  margin: 30px 0 0 0;
 }
 .social ul {
   list-style-type: none;
@@ -156,6 +157,18 @@ div.col-sm-3 div.profile-about {
 .post-content img,
 .content img {
   max-width: 100%
+}
+
+.category-button{
+  margin-right: 5px;
+  padding: 5px;
+  font-size: 24px;
+}
+
+.category-active-button {
+}
+
+.category-inactive-button {
 }
 
 /* Responsive Conditional */

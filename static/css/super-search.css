@@ -1,11 +1,6 @@
-/*  Super Search
-    Author: Kushagra Gour (http://kushagragour.in)
-    MIT Licensed
-*/
-
 input#js-search__input {
-  font-size: 12px;
-  font-family: 'Crimson Text', serif;
+  font-size: 16px;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 .is-active .search__input {
   transform: translateY(0);

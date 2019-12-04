@@ -2,7 +2,7 @@ title: My Notes
 description: These are my notes.
 author: Celine Yuwono
 github: https://github.com/celineyuwono
-about: I'm Javascript Programmer.
+about: Welcome to my website!
 disqus_shortname: stackproblems
 google_analytics: UA-XXXXXXXX-Y
 
@@ -35,6 +35,8 @@ urls:
       url: /about/
     - text: My Projects
       url: /projects/
+    - text: Categories
+      url: /category/jekyll
     - text: XML Feed
       url: /feed.xml
 
