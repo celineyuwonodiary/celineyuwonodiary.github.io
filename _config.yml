@@ -37,8 +37,8 @@ urls:
       url: /projects/
     - text: Categories
       url: /category/jekyll
-    - text: XML Feed
-      url: /feed.xml
+    # - text: XML Feed
+      # url: /feed.xml
 
 url: "https://celineyuwono.gitlab.io"
 baseurl: ""
