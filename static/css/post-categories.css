@@ -41,3 +41,15 @@ ul.post-list li:before {
 .related-post-section {
   padding: 5px 0px 10px 0px;
 }
+
+/* Responsive Conditional */
+@media (min-width: 1024px) {
+  .post-list {
+    margin-left: -30px;
+  }
+}
+@media (max-width: 768px) {
+  .post-list {
+    margin-left: -30px;
+  }
+}
