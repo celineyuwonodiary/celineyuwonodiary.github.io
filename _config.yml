@@ -42,7 +42,7 @@ urls:
   # - text: XML Feed
   # url: /feed.xml
 
-url: "https://celineyuwono.gitlab.io"
+url: "https://celineyuwono.github.io"
 baseurl: ""
 paginate: 20
 per_page: 20
