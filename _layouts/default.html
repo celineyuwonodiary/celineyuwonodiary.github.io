@@ -178,9 +178,11 @@ layout: compress
       <div class="col-sm-8 col-offset-1 main-layout">
         {{ content }}
         <footer class="main-footer">
-          &copy; {{ site.author }}
           <div class="social">
             <ul>
+              <li>
+                &copy;{{ site.author }}&nbsp;&nbsp;&nbsp;
+              </li>
               {% for link in site.social %}
               <li>
                 <a href="{{ link.link }}" target="_blank"
