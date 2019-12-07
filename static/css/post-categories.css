@@ -1,0 +1,36 @@
+.category-button {
+  font-size: 24px;
+  margin: 3px 7px;
+  display: inline-block;
+}
+
+.category-active-button {
+  color: #325f7c;
+  font-weight: 600;
+}
+
+.category-active-button:hover {
+  font-family: "Courgette", cursive;
+  color: #325f7c;
+  text-decoration: none;
+}
+
+.category-inactive-button {
+}
+
+.list-group-header {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.post-list {
+  margin: 5px;
+  list-style: none;
+  font-size: 18px;
+}
+
+ul.post-list li:before {
+  content: "✓";
+  font-weight: 600;
+  margin-right: 6px;
+}
