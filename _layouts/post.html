@@ -9,15 +9,14 @@ layout: default
 <div class="post-time-category">
   <span class="time">{{ page.date | date: "%-d %B %Y %T" }}</span>
   {% if page.categories %}
-  <span class="categories"
-    >(Tags:
+  <span class="categories">
     <b
       >{% for category in page.categories %}<a
         href="/category/{{ category }}"
         class="category"
-        >{{ category }}</a
+        >#{{ category }}</a
       >
-      {% if forloop.last == false %}, {% endif %}{% endfor %})
+      {% if forloop.last == false %}{% endif %}{% endfor %}
     </b></span
   >
   {% endif %}
@@ -39,11 +38,11 @@ post != page and tag == thisTag %} {% if hasSimilar.size == 0 %}
     {% endif %}
     <li class="relatedPost">
       <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
-      {% if post.categories %} (Tags: {% for category in post.categories %}<a
+      {% if post.categories %} {% for category in post.categories %}<a
         href="/category/{{ category }}"
         class="category"
-        ><b>{{ category }}</b></a
-      >{% if forloop.last == false %}, {% endif %}{% endfor %}) {% endif %}
+        ><b>#{{ category }}&nbsp;</b></a
+      >{% if forloop.last == false %} {% endif %}{% endfor %} {% endif %}
     </li>
     {% capture hasSimilar %}{{ hasSimilar }}*{% endcapture %} {% assign
     postHasSimilar = true %} {% endif %} {% endfor %} {% endfor %} {% endfor %}
@@ -61,7 +60,7 @@ post != page and tag == thisTag %} {% if hasSimilar.size == 0 %}
   <a class="next" href="{{ page.next.url }}">{{ page.next.title }} &raquo;</a>
   {% endif %}
 </div>
-
+<!-- 
 <div class="disqus-comments">
   <div id="disqus_thread"></div>
   <script type="text/javascript">
@@ -83,4 +82,4 @@ post != page and tag == thisTag %} {% if hasSimilar.size == 0 %}
     })();
     /* ]]> */
   </script>
-</div>
+</div> -->

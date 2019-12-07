@@ -31,7 +31,7 @@ share:
   fb_appid: 1749788565247320
 
 urls:
-  - text: Notes by Tags
+  - text: Notes by Category
     url: /category/jekyll
   - text: About Me
     url: /about/
