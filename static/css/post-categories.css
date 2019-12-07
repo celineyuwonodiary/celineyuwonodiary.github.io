@@ -23,6 +23,12 @@
   list-style: none;
 }
 
+.post-list-main {
+  margin: 2px;
+  margin-left: -38px;
+  list-style: none;
+}
+
 ul.post-list li:before {
   content: "✘";
   margin-right: 3px;

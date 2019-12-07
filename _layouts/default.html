@@ -142,7 +142,7 @@ layout: compress
   <body>
     <div class="container">
       <div class="col-sm-3">
-        <div class="fixed-condition">
+        <div class="fixed-condition main-menu">
           <img
             src="/static/img/profile/profile-picture.png"
             width="60%"
@@ -176,8 +176,8 @@ layout: compress
           </div>
           <hr /> -->
           <ul class="sidebar-nav">
-            <strong>MENU</strong>
-            <li><a href="/">Home</a></li>
+            <h4>ー MENU ー</h4>
+            <li><a href="/">All Notes</a></li>
             {% for i in site.urls %}
             <li><a class="about" href="{{ i.url }}">{{ i.text }}</a></li>
             {% endfor %}

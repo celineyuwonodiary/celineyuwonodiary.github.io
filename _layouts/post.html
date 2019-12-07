@@ -7,7 +7,7 @@ layout: default
 </header>
 
 <div class="post-time-category">
-  <span class="time">{{ page.date | date_to_string }}</span>
+  <span class="time">{{ page.date | date: "%-d %B %Y %T" }}</span>
   {% if page.categories %}
   <span class="categories"
     >(Tags:
@@ -16,9 +16,10 @@ layout: default
         href="/category/{{ category }}"
         class="category"
         >{{ category }}</a
-      ></b
-    >{% if forloop.last == false %}, {% endif %}{% endfor %})
-  </span>
+      >
+      {% if forloop.last == false %}, {% endif %}{% endfor %})
+    </b></span
+  >
   {% endif %}
 </div>
 <hr />

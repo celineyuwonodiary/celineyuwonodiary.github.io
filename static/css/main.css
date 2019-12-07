@@ -63,6 +63,11 @@ a.category:hover {
 /* Layout */
 .main-layout {
   background: #fff;
+  margin-left: 25px;
+}
+
+.main-menu {
+  text-align: center;
 }
 
 .main-footer {
@@ -70,8 +75,9 @@ a.category:hover {
 }
 
 .sidebar-nav {
-  margin: 0;
+  margin-top: -30px;
   padding: 0;
+  text-align: center;
 }
 
 .sidebar-nav li {
@@ -187,9 +193,19 @@ div.col-sm-3 div.profile-about {
     position: fixed;
     max-width: 255px;
   }
+  .main-layout {
+    margin-left: 0px;
+  }
 }
 @media (max-width: 768px) {
   div.col-sm-3 {
     margin-top: 30px;
   }
+  .main-layout {
+    margin-left: 0px;
+  }
+}
+
+.pagination {
+  zoom: 115%;
 }
