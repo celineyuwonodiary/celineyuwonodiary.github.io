@@ -29,7 +29,8 @@
   list-style: none;
 }
 
-ul.post-list li:before {
+ul.post-list li:before,
+ul.post-list-main li:before {
   content: "✘";
   margin-right: 3px;
 }
