@@ -185,7 +185,9 @@ div.col-sm-3 div.profile-about {
 .content img {
   max-width: 100%;
 }
-
+.pagination {
+  zoom: 115%;
+}
 /* Responsive Conditional */
 @media (min-width: 1024px) {
   .fixed-condition {
@@ -203,8 +205,4 @@ div.col-sm-3 div.profile-about {
   .main-layout {
     margin-left: -10px;
   }
-}
-
-.pagination {
-  zoom: 115%;
 }

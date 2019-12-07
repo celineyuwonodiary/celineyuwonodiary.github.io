@@ -33,6 +33,8 @@ share:
 urls:
   - text: Notes by Category
     url: /category/jekyll
+  - text: Search Notes
+    url: /search/
   - text: About Me
     url: /about/
   # - text: My Projects

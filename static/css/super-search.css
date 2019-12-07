@@ -1,6 +1,6 @@
 input#js-search__input {
   font-size: 16px;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 .is-active .search__input {
   transform: translateY(0);
@@ -25,11 +25,21 @@ input#js-search__input {
   padding: 10px;
 }
 .search__result-date {
-  color: #BBB;
+  color: #bbb;
   position: absolute;
-  right: 12px;
+  right: 22px;
 }
 .search.is-active {
   opacity: 1;
   visibility: visible;
+}
+
+@media (max-width: 768px) {
+  .search__results > li > a {
+    display: block;
+    padding: 10px 10px 25px 10px;
+  }
+  .search__result-date {
+    display: block;
+  }
 }
