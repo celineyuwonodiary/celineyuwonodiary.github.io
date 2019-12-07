@@ -15,14 +15,14 @@ collections:
     permalink: /project/:path/
 
 social:
-  - icon: fa-facebook
-    link: "#"
+  # - icon: fa-facebook
+  #   link: "#"
   - icon: fa-twitter
-    link: "#"
+    link: "https://twitter.com/celineyuwono/"
   - icon: fa-linkedin
-    link: "#"
-  - icon: fa-stack-exchange
-    link: "#"
+    link: "https://www.linkedin.com/in/celineyuwono/"
+  # - icon: fa-stack-exchange
+  #   link: "#"
   - icon: fa-github
     link: "https://github.com/celineyuwono"
 

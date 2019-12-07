@@ -154,17 +154,7 @@ layout: compress
             {{ site.about }}
           </div>
           {% endif %}
-          <div class="social">
-            <ul>
-              {% for link in site.social %}
-              <li>
-                <a href="{{ link.link }}" target="_blank"
-                  ><i class="fa {{ link.icon }}"></i
-                ></a>
-              </li>
-              {% endfor %}
-            </ul>
-          </div>
+
           <!-- <div class="search" id="js-search">
             <input
               type="text"
@@ -188,9 +178,18 @@ layout: compress
       <div class="col-sm-8 col-offset-1 main-layout">
         {{ content }}
         <footer class="main-footer">
-          &copy; {{ site.author }} {% if site.github %} -
-          <a href="{{ site.github }}">{{ site.github }}</a>
-          {% endif %}
+          &copy; {{ site.author }}
+          <div class="social">
+            <ul>
+              {% for link in site.social %}
+              <li>
+                <a href="{{ link.link }}" target="_blank"
+                  ><i class="fa {{ link.icon }}"></i
+                ></a>
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
         </footer>
       </div>
       <!-- end /.col-sm-8 -->
