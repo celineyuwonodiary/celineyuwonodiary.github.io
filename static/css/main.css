@@ -10,12 +10,11 @@ hr {
   margin-top: 20px;
   margin-bottom: 20px;
   border: 0;
-  border-top: 1px solid #f7f1f1;
-  border-bottom: 1px solid #fff;
+  border-top: 1px solid #dedede;
 }
 span.time,
 span.categories {
-  color: #adadad;
+  color: #666;
   margin-bottom: 5px;
   font-size: 11px;
 }
@@ -46,6 +45,21 @@ a:hover {
   font-weight: bold;
 }
 
+a.category,
+a.category:link,
+a.category:active {
+  text-decoration: none;
+  color: #325f7c;
+}
+a.category:hover {
+  font-weight: 800;
+}
+
+.agile,
+.agile:hover {
+  color: #911d34;
+}
+
 /* Layout */
 .main-layout {
   background: #fff;
@@ -65,11 +79,11 @@ a:hover {
   list-style: none;
   font-size: 16px;
 }
-.sidebar-nav li::before {
+/* .sidebar-nav li::before {
   content: "✗";
   font-weight: 600;
   margin-right: 0.5em;
-}
+} */
 
 /* Content */
 div.content pre {
@@ -160,6 +174,7 @@ div.col-sm-3 div.profile-about {
   padding: 10px 10px 5px;
   border-top: 1px solid #f0f0f0;
   border-bottom: 1px solid #f0f0f0;
+  text-align: right;
 }
 .post-content img,
 .content img {
