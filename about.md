@@ -17,8 +17,8 @@ a company in Tokyo, Japan focusing on Ambassador Marketing.<br/>
 
 <span class="agile">**_Celine Yuwono_**</span><br/>
 Software Engineer<br/>
-✉: yuwono[at]agilemedia.jp<br/>
-☎: +81-80-8865-2696<br/>
+Email: yuwono[at]agilemedia.jp<br/>
+Phone: +81-80-8865-2696<br/>
 
 <a href="https://agilemedia.jp" class="agile">**Agile Media Network Co.Ltd**</a><br/>
 3-8-21 Toranomon, Minato-ku<br/>
