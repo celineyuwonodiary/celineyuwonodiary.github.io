@@ -1,6 +1,6 @@
 ---
 layout: posts_by_category
-categories: aws
-title: AWS
-permalink: /category/aws
+categories: AWS
+title: Amazon Web Services
+permalink: /category/AWS
 ---
