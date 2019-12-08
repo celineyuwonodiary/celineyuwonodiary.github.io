@@ -1,5 +1,6 @@
 ---
 layout: default
+comments: true
 ---
 
 <header class="post-header">
@@ -59,6 +60,19 @@ post != page and tag == thisTag %} {% if hasSimilar.size == 0 %}
   {% endif %} {% if page.next.url %}
   <a class="next" href="{{ page.next.url }}">{{ page.next.title }} &raquo;</a>
   {% endif %}
+</div>
+
+<div id="disqus_thread">
+  <script>
+    (function() {
+      // DON'T EDIT BELOW THIS LINE
+      var d = document,
+        s = d.createElement("script");
+      s.src = "https://celineyuwono.disqus.com/embed.js";
+      s.setAttribute("data-timestamp", +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
 </div>
 <!-- 
 <div class="disqus-comments">
