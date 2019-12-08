@@ -32,7 +32,7 @@ share:
 
 urls:
   - text: Notes by Category
-    url: /category/aws
+    url: /category/AWS
   - text: Search Notes
     url: /search/
   - text: About Me
