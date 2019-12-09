@@ -68,10 +68,6 @@ a.category:hover {
   line-height: 1.6;
 }
 
-.main-menu {
-  text-align: center;
-}
-
 .main-footer {
   font-size: 14px;
 }
@@ -84,9 +80,12 @@ a.category:hover {
 
 .sidebar-nav li {
   margin: 0;
+  padding: 0px 5px;
   list-style: none;
   font-size: 16px;
+  display: inline-block;
 }
+
 /* .sidebar-nav li::before {
   content: "✗";
   font-weight: 600;
@@ -192,9 +191,10 @@ div.col-sm-3 div.profile-about {
 }
 /* Responsive Conditional */
 @media (min-width: 1024px) {
-  .fixed-condition {
-    position: fixed;
-    max-width: 255px;
+  .nav-bar {
+    margin-top: 15px;
+    text-align: center;
+    padding: 25px;
   }
   .main-layout {
     margin-left: 0px;
