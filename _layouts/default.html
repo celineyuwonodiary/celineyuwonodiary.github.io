@@ -140,7 +140,7 @@ layout: compress
     {% endif %}
   </head>
   <body>
-    <div class="container">
+    <div class="default-container">
       <div class="row">
         <div class="nav-bar">
           <!--<img
@@ -164,32 +164,29 @@ layout: compress
             {% endfor %}
           </ul>
         </div>
-        <!-- end /.fixed-condition -->
       </div>
       <div class="row main-layout">
         {{ content }}
-        <footer class="main-footer">
-          <div class="social">
-            <ul>
-              <li>
-                &copy;&nbsp;2019&nbsp;{{ site.author }}&nbsp;&nbsp;
-              </li>
-              {% for link in site.social %}
-              <li>
-                <a href="{{ link.link }}" target="_blank"
-                  ><i class="fa {{ link.icon }}"></i
-                ></a>
-              </li>
-              {% endfor %}
-            </ul>
-          </div>
-        </footer>
       </div>
-      <!-- end /.col-sm-8 -->
+      <footer class="main-footer">
+        <div class="social">
+          <ul>
+            {% for link in site.social %}
+            <li>
+              <a href="{{ link.link }}" target="_blank"
+                ><i class="fa {{ link.icon }}"></i
+              ></a>
+            </li>
+            {% endfor %}
+            <br/>
+            <li>
+              &copy;&nbsp;2019&nbsp;{{ site.author }}&nbsp;&nbsp;
+            </li>
+          </ul>
+        </div>
+      </footer>
     </div>
-    <!-- end /.container -->
-
-    <!-- Bootstrap core JavaScript -->
+    
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>

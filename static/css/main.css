@@ -6,18 +6,21 @@ body {
   font-size: 16px;
   color: #666;
 }
+
 hr {
   margin-top: 20px;
   margin-bottom: 20px;
   border: 0;
   border-top: 1px solid #dedede;
 }
+
 span.time,
 span.categories {
   color: #666;
   margin-bottom: 5px;
   font-size: 11px;
 }
+
 h1,
 h2,
 h3 {
@@ -25,21 +28,25 @@ h3 {
   color: #696969;
   font-weight: normal;
 }
+
 h1 {
   margin-bottom: 10px;
   font-size: 30px;
 }
+
 h2,
 h3 {
   margin-bottom: 5px;
   font-size: 25px;
 }
+
 a,
 a:link,
 a:active {
   text-decoration: none;
   color: #36a9bf;
 }
+
 a:hover {
   color: #e35b55;
   font-weight: bold;
@@ -51,6 +58,7 @@ a.category:active {
   text-decoration: none;
   color: #325f7c;
 }
+
 a.category:hover {
   font-weight: 800;
 }
@@ -61,15 +69,25 @@ a.category:hover {
 }
 
 /* Layout */
+.default-container {
+  margin: 0 auto;
+}
+
 .main-layout {
   background: #fff;
-  margin-left: 25px;
-  zoom: 110%;
+  padding: 20px 30px;
+  width: 80%;
   line-height: 1.6;
 }
 
 .main-footer {
+  height: 100px;
+  background-color: #9e9e9e;
+  background-image: url("https://www.transparenttextures.com/patterns/wavecut.png");
   font-size: 14px;
+  width: 100%;
+  padding: 20px 0px;
+  text-align: center;
 }
 
 .sidebar-nav {
@@ -102,9 +120,11 @@ div.content pre {
   font-size: 12px;
   border: none;
 }
+
 div.content .highlight {
   background: #333333;
 }
+
 footer {
   border-top: 1px solid #f7f1f1;
   width: 100%;
@@ -124,11 +144,13 @@ div.col-sm-3 {
   font-size: 11px;
   color: #666;
 }
+
 div.col-sm-3 strong {
   font-size: 16px;
   color: #4a4a4a;
   font-weight: normal;
 }
+
 div.col-sm-3 div.profile-about {
   margin-top: 10px;
   color: #8c8c8c;
@@ -142,15 +164,18 @@ div.col-sm-3 div.profile-about {
   width: auto;
   overflow: hidden;
 }
+
 .PageNavigation a {
   display: block;
   width: 50%;
   float: left;
   margin: 1em 0;
 }
+
 .PageNavigation .next {
   text-align: right;
 }
+
 .PageNavigation .prev {
   text-align: left;
 }
@@ -158,22 +183,28 @@ div.col-sm-3 div.profile-about {
 /* Social Icons */
 .social {
   display: block;
+  line-height: 1.8;
+  color: #545251;
 }
+
 .social ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
+
 .social ul li {
   display: inline-block;
   margin: 0 5px;
 }
+
 .social li a {
   font-size: 16px;
-  color: #969394;
+  color: #545251;
 }
+
 .social li a:hover {
-  color: #6d6d6d;
+  color: #3d3d3d;
 }
 
 .share-page {
@@ -182,13 +213,16 @@ div.col-sm-3 div.profile-about {
   border-bottom: 1px solid #f0f0f0;
   text-align: right;
 }
+
 .post-content img,
 .content img {
   max-width: 100%;
 }
+
 .pagination {
   zoom: 115%;
 }
+
 /* Responsive Conditional */
 @media (min-width: 1024px) {
   .nav-bar {
@@ -196,14 +230,17 @@ div.col-sm-3 div.profile-about {
     text-align: center;
     padding: 25px;
   }
+
   .main-layout {
     margin-left: 0px;
   }
 }
+
 @media (max-width: 768px) {
   div.col-sm-3 {
     margin-top: 30px;
   }
+
   .main-layout {
     margin-left: -10px;
   }
