@@ -64,6 +64,8 @@ a.category:hover {
 .main-layout {
   background: #fff;
   margin-left: 25px;
+  zoom: 110%;
+  line-height: 1.6;
 }
 
 .main-menu {
