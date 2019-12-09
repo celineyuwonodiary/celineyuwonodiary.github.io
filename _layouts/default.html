@@ -143,15 +143,9 @@ layout: compress
     <div class="default-container">
       <div class="main-body">
         <ul class="sidebar-nav">
-          <img
-            src="/static/img/waves.jpg"
-            width="200px"
-            display="block"
-           />
+          <img src="/static/img/waves.jpg" width="200px" display="block" />
           <h1><a href="/">{{ site.author }}</a></h1>
-          {% if site.about %}
-            {{ site.about }}
-          {% endif %}
+          {% if site.about %} {{ site.about }} {% endif %}
           <br />
           <li><a href="/">All Notes</a></li>
           {% for i in site.urls %}
@@ -172,7 +166,7 @@ layout: compress
               ></a>
             </li>
             {% endfor %}
-            <br/>
+            <br /><br />
             <li>
               &copy; 2019 {{ site.author }}
             </li>
@@ -180,7 +174,7 @@ layout: compress
         </div>
       </footer>
     </div>
-    
+
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>

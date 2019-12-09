@@ -43,6 +43,10 @@ ul.post-list-main li:before {
   padding: 5px 0px 10px 0px;
 }
 
+.post-content-markdown {
+  line-height: 1.8;
+}
+
 /* Responsive Conditional */
 @media (min-width: 1024px) {
   .post-list {
