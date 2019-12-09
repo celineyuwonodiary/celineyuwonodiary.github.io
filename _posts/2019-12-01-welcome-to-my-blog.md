@@ -20,7 +20,8 @@ categories:
   ]
 ---
 
-Hello everyone! Welcome to my blog.
+Hello everyone! This is not a blog.
+This website serves as a collection of my notes.
 
 This blog post is to explain about the tags.
 
