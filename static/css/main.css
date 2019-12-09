@@ -70,30 +70,40 @@ a.category:hover {
 
 /* Layout */
 .default-container {
-  margin: 0 auto;
+  position: relative;
+  min-height: 100vh;
+}
+
+.main-body {
+  padding-bottom: 100px;
+  /* footer height */
 }
 
 .main-layout {
   background: #fff;
   padding: 20px 30px;
-  width: 80%;
+  width: 70%;
   line-height: 1.6;
+  margin: 0 auto;
 }
 
 .main-footer {
-  height: 100px;
   background-color: #9e9e9e;
   background-image: url("https://www.transparenttextures.com/patterns/wavecut.png");
   font-size: 14px;
   width: 100%;
-  padding: 20px 0px;
   text-align: center;
+  position: absolute;
+  bottom: 0;
+  height: 100px;
 }
 
 .sidebar-nav {
   padding: 0;
   text-align: center;
-  margin-top: 30px;
+  margin: 50px 0px;
+  line-height: 2;
+  zoom: 115%;
 }
 
 .sidebar-nav li {
@@ -223,25 +233,20 @@ div.col-sm-3 div.profile-about {
   zoom: 115%;
 }
 
-/* Responsive Conditional */
-@media (min-width: 1024px) {
-  .nav-bar {
-    margin-top: 15px;
-    text-align: center;
-    padding: 25px;
-  }
-
-  .main-layout {
-    margin-left: 0px;
-  }
-}
-
 @media (max-width: 768px) {
-  div.col-sm-3 {
-    margin-top: 30px;
+  .main-layout {
+    background: #fff;
+    padding: 15px 10px;
+    width: 94%;
+    margin: 0 auto;
   }
 
-  .main-layout {
-    margin-left: -10px;
+  .sidebar-nav {
+    margin-bottom: 10px;
+  }
+
+
+  .sidebar-nav li {
+    display: block;
   }
 }

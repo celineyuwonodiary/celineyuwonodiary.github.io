@@ -141,32 +141,26 @@ layout: compress
   </head>
   <body>
     <div class="default-container">
-      <div class="row">
-        <div class="nav-bar">
-          <!--<img
-            src="/static/img/profile/profile-picture.png"
-            width="6%"
-            display="block"
-          />-->
+      <div class="main-body">
+        <ul class="sidebar-nav">
           <img
             src="/static/img/waves.jpg"
             width="200px"
             display="block"
-          />
+           />
           <h1><a href="/">{{ site.author }}</a></h1>
           {% if site.about %}
-          {{ site.about }}
+            {{ site.about }}
           {% endif %}
-          <ul class="sidebar-nav">
-            <li><a href="/">All Notes</a></li>
-            {% for i in site.urls %}
-            <li><a class="about" href="{{ i.url }}">{{ i.text }}</a></li>
-            {% endfor %}
-          </ul>
+          <br />
+          <li><a href="/">All Notes</a></li>
+          {% for i in site.urls %}
+          <li><a class="about" href="{{ i.url }}">{{ i.text }}</a></li>
+          {% endfor %}
+        </ul>
+        <div class="main-layout">
+          {{ content }}
         </div>
-      </div>
-      <div class="row main-layout">
-        {{ content }}
       </div>
       <footer class="main-footer">
         <div class="social">
