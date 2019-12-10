@@ -71,6 +71,7 @@ a.category:hover {
 .agile,
 .agile:hover {
   color: #911d34;
+  font-weight: 600;
 }
 
 /* Layout */

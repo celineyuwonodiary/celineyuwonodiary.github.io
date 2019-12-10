@@ -8,18 +8,25 @@ permalink: /about/
 
 
 Hi!<br/>
+
 My name is Celine Yuwono. I am from Jakarta, Indonesia.
 I graduated from University of North Carolina at Chapel Hill majoring in BS Information Sciences.
 Currently, I am working as a Software Engineer at Agile Media Network Co.Ltd,
 a company in Tokyo, Japan focusing on Ambassador Marketing.<br/>
 
-<img
-    src="/static/img/profile/profile-picture.png"
-    width="10%"
-    display="block"
-/>
+## Why I Started this Site
+1. I tend to forget what I have learned easily, so this website is like my notebook.
+2. I learn and organize things better when typing it out.
+3. Presenting it 
+Instead of just taking notes on my computer, I prefer to do it in a blog format because then, I can review what I have learned easier. 
 
 ## Contact Me!
+
+<img
+    src="/static/img/profile/profile-picture.png"
+    width="150px"
+    display="block"
+/>
 
 <span class="agile">**_Celine Yuwono_**</span><br/>
 Software Engineer<br/>

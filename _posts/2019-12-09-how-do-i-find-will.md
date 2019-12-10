@@ -21,7 +21,7 @@ When you are obedient to God and follow what God calls you to do, you will be wa
 
 1. **The General Call**: This is God's first call to us to become Christians.
 
-2. **The Call of Marriage**: Marriage is when God joins two people in covenant. This is a special type of calling because when you are called to take a job, you can change jobs, but when you marry, your are bound to it until death.
+2. **The Call of Marriage**: Marriage is when God joins two people in covenant. This is a special type of calling because when you are called to take a job, you can change jobs, but when you marry, you are bound to it until death.
 
 3. **The Continuous Calling**: This calling is a process consisting of multiple callings where in each step, God leads you into positions of service in order for you to grow. These positions of service can be in Church or in the Marketplace.
 
