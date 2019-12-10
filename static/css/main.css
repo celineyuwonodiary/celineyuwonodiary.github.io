@@ -21,6 +21,7 @@ span.categories {
   font-size: 11px;
 }
 
+
 h1,
 h2,
 h3 {
@@ -30,8 +31,12 @@ h3 {
 }
 
 h1 {
-  margin: 40px 0px 20px 0px;
+  margin: 0px 0px 20px 0px;
   font-size: 30px;
+}
+
+h1.header-title {
+  margin-top: 40px;
 }
 
 h2,
@@ -80,7 +85,7 @@ a.category:hover {
 
 .main-layout {
   background: #fff;
-  padding: 0.1px 30px 40px 30px;
+  padding: 40px 30px 40px 30px;
   width: 65%;
   line-height: 1.6;
   margin: 0 auto;

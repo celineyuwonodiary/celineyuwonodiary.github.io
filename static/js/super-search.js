@@ -151,7 +151,7 @@
         .map(function(post) {
           d = new Date(post.pubDate);
           return (
-            '<li><a href="' +
+            '<li class="search__result-link"><a href="' +
             post.link +
             '">' +
             post.title +
