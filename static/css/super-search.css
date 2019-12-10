@@ -26,8 +26,7 @@ input#js-search__input {
 }
 .search__result-date {
   color: #bbb;
-  position: absolute;
-  right: 22px;
+  float: right;
 }
 .search.is-active {
   opacity: 1;
