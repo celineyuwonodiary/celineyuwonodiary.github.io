@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Basics of The Agile Development Methodology: Scrum"
+title: "Agile Development Methodology: Scrum"
 date: 2019-12-05 18:32:44 +0900
 categories: [ProjectManagement, TechJobs]
 ---
