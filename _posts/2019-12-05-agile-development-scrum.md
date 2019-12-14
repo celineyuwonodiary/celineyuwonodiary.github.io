@@ -14,7 +14,7 @@ In traditional software development, a team follows through the traditional SDLC
 
 The Agile Methodology is basically iterative development meaning that instead of taking up a year or so and following a full SDLC cycle, a team follows through a certain framework to develop features or programs within a short period of time called a sprint. A new sprint begins once the previous one ends and the resulting product of each sprint are finished, usable features.
 
-While the traditional software development methodology focuses on the end product, agile methodology breaks down the end product into independent features and develop those in iterations. This allows for a change in course in development if the product specification changes allowing better accomodation of the customer's needs, hence the term 'agile'. In the Agile Methodology, the team focuses on results.
+While the traditional software development methodology focuses on the end product, agile methodology breaks down the end product into independent features and develop those in iterations. This allows for a change in course in development if the product specification changes allowing better accomodation of the customer's needs, hence the term 'agile'. In the agile methodology, the team focuses on results.
 
 ### A Framework of Agile: Scrum
 
@@ -24,7 +24,7 @@ Remember that agile is only a methodology, or a way of thinking. There are multi
 
 **Three Types of Roles**
 
-- **Product Owner**: The Product Owner gets input from the curstomers and knows the big picture of what the product should be. They are responsible in defining the end goal and the tasks that needs to be completed to the rest of the team. The Product Owner creates the backlog of to-do list items and reviews deliverables before the product is delivered.
+- **Product Owner**: The Product Owner gets input from the customers and knows the big picture of what the product should be. They are responsible in defining the end goal and the tasks that needs to be completed to the rest of the team. The Product Owner creates the backlog of to-do list items and reviews deliverables before the product is delivered.
 
 - **Scrum Master:** The scrum master can be said to be the project manager. They oversee day-to-day functions and check-in with the members of the development team. They are reponsible for the tasks to be delivered on time and the team's wellbeing.
 
