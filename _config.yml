@@ -35,7 +35,7 @@ urls:
     url: /category/AWS
   - text: Search Notes
     url: /search/
-  - text: About Me
+  - text: About
     url: /about/
   # - text: My Projects
   #   url: /projects/
