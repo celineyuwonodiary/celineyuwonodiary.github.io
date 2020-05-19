@@ -8,7 +8,7 @@ categories: [ProjectManagement, TechJobs]
 ### Traditional vs. Agile Software Development Methodologies
 
 <img src="https://i.pinimg.com/originals/bc/89/69/bc896937201b696beef56feb1c4adb19.jpg" alt="Agile/Scrum vs Traditional/Waterfall" width="500px" display="inline-block" />
-<img src="https://scontent-nrt1-1.xx.fbcdn.net/v/t1.0-9/14344304_1397070920321959_3431169010133890617_n.png?_nc_cat=109&_nc_ohc=HCZNuErDT4EAQlKI8QEoiEtnuX5aZz6oMb4zKEoIisOg1CNo_spHO1-Tw&_nc_ht=scontent-nrt1-1.xx&oh=4cee1de44034dbf10e88a3b7e79b680b&oe=5E7FDEBC" alt="Scrum vs Traditional Methodology" width="400px" display="inline-block"  />
+<img src="https://coeleveld.com/wp-content/uploads/2016/07/scrum-vs-traditional.png" alt="Scrum vs Traditional Methodology" width="400px" display="inline-block"  />
 
 In traditional software development, a team follows through the traditional SDLC starting from planning, analysis, design, implementation, testing, implementation, and maintenance within a longer period of time.
 
