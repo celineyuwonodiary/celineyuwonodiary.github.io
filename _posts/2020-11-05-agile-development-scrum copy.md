@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Agile Development Methodology: Scrum"
-date: 2019-12-05 18:32:44 +0900
-categories: [ProjectManagement, TechJobs]
+date: 2020-11-05 18:32:44 +0900
+categories: [ProjectManagement]
 ---
 
 ### Traditional vs. Agile Software Development Methodologies

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Introduction to Cloud Computing"
-date: 2019-12-02 12:43:45 +0900
+date: 2020-11-02 12:43:45 +0900
 categories: [AWS, FutureTech]
 ---
 
@@ -72,3 +72,4 @@ Examples of SaaS includes Gmail, Google Docs, and Salesforce.
 
 [Private Cloud vs Public Cloud](https://www.cloudflare.com/resources/images/slt3lc6tev37/2jBaVWKgbOUNLDNw7QJYPh/563316b4290e2919f7510ae59a3ae3ca/public-cloud-vs-private-cloud.svg)<br/>
 [Differences between IaaS, PaaS, and SaaS](https://mycloudblog7.files.wordpress.com/2013/06/screen-shot-2015-06-09-at-2-13-05-pm1.png?w=780&h=372)
+
